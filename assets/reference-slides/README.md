@@ -10,3 +10,6 @@ These five 16:9 slide crops were supplied for the original Mode1 visual analysis
 - `contact-sheet.jpg` — overview of the five supplied reference pages.
 
 The source reference deck had seven pages, but only these five pages were supplied. Do not infer the missing pages. The images are included for design analysis; the original source URL and redistribution rights metadata were not provided.
+
+
+> **Asset status:** This folder's documentation is committed. The five image files and contact sheet are staged in the companion asset package and still need to be uploaded.
