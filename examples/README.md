@@ -15,3 +15,6 @@ The deck is a concept proposal, not an official 谷雨 collaboration or launched
 ## Reference slides
 
 The five supplied Mode1 reference pages are in `assets/reference-slides/`. They are the canonical visual source for future Mode1 work; the SHEEN example must not override them.
+
+
+> **Asset status:** The README and target paths are committed. The PowerPoint, preview board, and reference image files are staged in the companion asset package and must still be uploaded before the links above become active.
