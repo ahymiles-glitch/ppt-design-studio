@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<rect width="1200" height="430" fill="#F4F0E4"/>
+<text x="48" y="58" font-family="Arial,sans-serif" font-size="30" fill="#493729" letter-spacing="2">MODE1 COLOR SYSTEM</text>
+<g font-family="Arial,sans-serif" font-size="19" fill="#493729">
+<rect x="48" y="100" width="340" height="105" rx="10" fill="#FCFBEA"/><text x="48" y="238">Warm ivory · #FCFBEA</text>
+<rect x="430" y="100" width="340" height="105" rx="10" fill="#F7A26B"/><text x="430" y="238">Apricot orange · #F7A26B</text>
+<rect x="812" y="100" width="340" height="105" rx="10" fill="#B9D6DC"/><text x="812" y="238">Mist blue · #B9D6DC</text>
+<rect x="48" y="280" width="340" height="80" rx="10" fill="#493729"/><text x="48" y="395">Dark cocoa · #493729</text>
+<rect x="430" y="280" width="340" height="80" rx="10" fill="#FBF5A9"/><text x="430" y="395">Soft butter · #FBF5A9</text>
+<rect x="812" y="280" width="340" height="80" rx="10" fill="#FBD1B8"/><text x="812" y="395">Pale peach · #FBD1B8</text>
+</g></svg>
