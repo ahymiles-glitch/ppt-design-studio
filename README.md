@@ -15,7 +15,7 @@ ppt-design-studio/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
-│   └── mode1-palette.jpg
+│   └── mode1-palette.svg
 └── references/
     ├── mode1.md
     ├── layout-recipes.md
@@ -26,7 +26,7 @@ ppt-design-studio/
 - `references/mode1.md` — full visual and information-design specification.
 - `references/layout-recipes.md` — six practical page-composition recipes.
 - `references/visual-analysis.md` — analysis of the reference style and transferable principles.
-- `assets/mode1-palette.jpg` — the mode1 color palette.
+- `assets/mode1-palette.svg` — the mode1 color palette.
 
 Reference slide screenshots supplied for the original analysis are intentionally not included in this public repository. The reusable design rules and palette are documented here without redistributing the source presentation.
 
