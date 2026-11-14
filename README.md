@@ -4,9 +4,9 @@ A reusable Agent Skill for creating clear, expressive, editable PowerPoint prese
 
 **Current design mode:** `mode1 — Reference-locked Editorial Paper / Career Notes`
 
-Mode1 follows a specific user-provided visual reference system: warm paper margins, a dark-brown top band, tab-like section labels, a fixed pastel palette, reference-matched typography, asymmetric editorial layouts, staggered paper notes, and concise structured storytelling. It is intended for career sharing, portfolios, learning reports, and product introductions.
+Mode1 is based on a specific visual reference set, not a generic pastel theme. It preserves the reference's warm paper background, apricot / mist-blue / butter-yellow palette, Songti + Georgia typography, tabbed top band, paperclip, asymmetric editorial layouts, varied starbursts, staggered paper notes, and restrained information density.
 
-## What is included
+## Repository structure
 
 ```text
 ppt-design-studio/
@@ -15,20 +15,37 @@ ppt-design-studio/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
-│   └── mode1-palette.svg
-└── references/
-    ├── mode1.md
-    ├── layout-recipes.md
-    └── visual-analysis.md
+│   ├── mode1-palette.svg
+│   ├── mode1-palette.jpg
+│   └── reference-slides/
+│       ├── 01-cover-and-agenda.jpg
+│       ├── 02-internship-pathway.jpg
+│       ├── 04-role-definition.jpg
+│       ├── 06-three-scenario-comparison.jpg
+│       ├── 07-closing-principle.jpg
+│       └── contact-sheet.jpg
+├── references/
+│   ├── mode1.md
+│   ├── layout-recipes.md
+│   └── visual-analysis.md
+└── examples/
+    ├── README.md
+    └── SHEEN-IRIS/
+        ├── README.md
+        ├── SHEEN_虹Iris_谷雨光合计划_Mode1_八页最终版.pptx
+        └── MODE1_Reference_and_SHEEN_Showcase.jpg
 ```
 
-- `SKILL.md` — skill entry point, mode selection, global constraints, workflow, and quality checks.
-- `references/mode1.md` — locked Mode1 background, color, typography, layout, density, and decoration specification.
-- `references/layout-recipes.md` — practical recipes for two-column layouts, staggered three-row comparisons, sticky notes, and evidence pages.
-- `references/visual-analysis.md` — analysis of why the reference style works and the constraints that must be preserved.
-- `assets/mode1-palette.svg` — the Mode1 color palette.
+## What is included
 
-The original reference screenshots are not redistributed in this public repository. The reusable design rules are documented here without republishing the source presentation.
+- `SKILL.md` — mode selection, mandatory reference-image inspection, global constraints, workflow, and visual QA.
+- `references/mode1.md` — complete Mode1 visual specification, including exact palette, typography, layout, starbursts, paper notes, image framing, spacing, and footer rules.
+- `references/layout-recipes.md` — practical recipes mapped to the five available reference pages.
+- `references/visual-analysis.md` — why the reference style works and how to preserve it.
+- `assets/reference-slides/` — five user-supplied reference slide crops and a contact sheet.
+- `examples/SHEEN-IRIS/` — an eight-slide Mode1 application example based on the SHEEN / 虹 Iris concept for 谷雨「光合计划」.
+
+The original reference deck contained seven pages; only five reference pages (01, 02, 04, 06, 07) were supplied and are included. The missing pages are not reconstructed or invented.
 
 ## Install for Codex
 
@@ -47,32 +64,34 @@ Ask Codex to use `$ppt-design-studio`, then specify the topic, audience, purpose
 ```text
 Use $ppt-design-studio with mode1 to create an editable 8-slide portfolio deck.
 Use the information in the attached project notes. Do not invent experience or metrics.
-Keep the original Mode1 reference background, palette, typography, and layout language.
+Inspect the original Mode1 reference images and preserve their typography, palette, background, and composition language.
 ```
 
-You can also say simply: `Use mode1 — Reference-locked Editorial Paper / Career Notes.`
+## Mode1 visual contract
 
-## Design principles
+1. Background, palette, and font combination are locked to the reference set.
+2. Chinese uses 宋体; Latin text and numerals use Georgia.
+3. Left-side core statements are larger and placed around the visual middle; right-side explanations are smaller.
+4. Divider lines are thin, light, and low-contrast.
+5. Three-row comparisons and paper cards have subtle offsets and natural irregularity.
+6. Starbursts vary in size, shape, angle, and placement.
+7. Screenshots are integrated into square-corner paper frames and note labels.
+8. No decorative footer line is added by default.
+9. All container shapes use square corners unless the user explicitly opts out.
 
-1. One slide, one primary cognitive task.
-2. Build the story before styling.
-3. Preserve the Mode1 reference background, color pairings, and typography.
-4. Vary layouts according to information relationships while keeping the same visual identity.
-5. Use subtle offsets, varied starbursts, and paper notes without losing readability.
-6. Preserve source facts, qualifiers, units, and citations.
-7. Keep PowerPoint objects editable and inspect every rendered slide.
-8. All modes use square-corner containers by default; rounded corners require explicit user approval.
+## Showcase note
 
-## Compatibility
+The SHEEN / 虹 Iris deck is a student concept proposal, not an official collaboration or product announcement by 谷雨. Its own slides explicitly distinguish assumptions, development-stage interface images, and validation work that remains to be done. The showcase is an application example; the original reference images remain the visual source of truth.
+
+## Compatibility and limitations
 
 This repository follows the Agent Skills folder convention (`SKILL.md` plus supporting references and assets). Availability and installation paths vary by host product and account. Codex supports repository-level skills; check current ChatGPT Skills documentation for availability in your ChatGPT workspace.
 
-## Scope and limitations
+Only Mode1 is currently defined. Mode1 is not intended to be forced onto dense financial reports, technical architecture decks, or formal corporate reviews unless explicitly requested.
 
-- Only `mode1` is currently defined. Additional modes may be added later.
-- Mode1 is not intended to be forced onto dense financial reports, technical architecture decks, or formal corporate reviews unless explicitly requested.
-- The skill provides design instructions; actual PowerPoint generation and rendering depend on the host's available tools.
-- The precise original font family cannot be inferred with certainty from a raster screenshot alone. When the original font file or source PPTX is unavailable, match the reference's visible type style and ask before making a materially different substitution.
+## Reference material and rights
+
+The reference images were supplied by the user for design analysis. The original source URL and redistribution rights metadata were not included with the supplied files. Keep the source attribution / rights status clear, and do not imply that the reference deck or its author is affiliated with this repository.
 
 ## License
 
