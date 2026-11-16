@@ -1,15 +1,14 @@
-# Mode1 Reference Slides
+﻿# Mode1 Reference Slides
 
-These five 16:9 slide crops were supplied for the original Mode1 visual analysis.
+Five 16:9 reference pages supplied for the original Mode1 visual analysis: 01, 02, 04, 06, and 07. The original source deck had seven pages; pages 03 and 05 were not supplied and are not reconstructed.
 
-- `01-cover-and-agenda.jpg` — cover with large left title and right-side numbered agenda.
-- `02-internship-pathway.jpg` — apricot page with four staggered paper cards.
-- `04-role-definition.jpg` — large left-side statement and three right-side numbered explanations.
-- `06-three-scenario-comparison.jpg` — three stacked horizontal comparison bands.
-- `07-closing-principle.jpg` — closing principle with a large left statement and two right-side modules.
-- `contact-sheet.jpg` — overview of the five supplied reference pages.
+- `01-cover-and-agenda.jpg`: cover and numbered agenda.
+- `02-internship-pathway.jpg`: four staggered paper cards.
+- `04-role-definition.jpg`: left-side core statement and three right-side explanations.
+- `06-three-scenario-comparison.jpg`: three horizontal comparison bands.
+- `07-closing-principle.jpg`: closing principle with two right-side modules.
+- `contact-sheet.jpg`: overview of all five pages.
 
-The source reference deck had seven pages, but only these five pages were supplied. Do not infer the missing pages. The images are included for design analysis; the original source URL and redistribution rights metadata were not provided.
+The images were supplied by the user for design analysis. Original source URL and redistribution-rights metadata were not provided.
 
-
-> **Asset status:** This folder's documentation is committed. The five image files and contact sheet are staged in the companion asset package and still need to be uploaded.
+> **Asset status:** All five reference images and the contact sheet are included in this repository.

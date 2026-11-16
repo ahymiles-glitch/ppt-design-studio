@@ -1,4 +1,4 @@
-# PPT Design Studio
+﻿# PPT Design Studio
 
 A reusable Agent Skill for creating clear, expressive, editable PowerPoint presentations.
 
@@ -100,4 +100,4 @@ No open-source license is currently included. All rights are reserved by default
 
 ## Binary asset status
 
-The reference-slide images and the SHEEN PowerPoint/PDF are prepared in the companion asset package, but are not yet committed as binary files. The documentation and target paths are committed; the binary files still need to be uploaded into the paths shown above. Until that upload is complete, the example links will not resolve.
+The reference-slide images, color palette, and SHEEN PowerPoint/PDF are committed in this repository. The eight-slide example includes an editable `.pptx` and a review-ready `.pdf`.
