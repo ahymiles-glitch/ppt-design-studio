@@ -4,7 +4,7 @@ A reusable Agent Skill for creating clear, expressive, editable PowerPoint prese
 
 **Current design mode:** `mode1 — Reference-locked Editorial Paper / Career Notes`
 
-Mode1 is based on a specific visual reference set, not a generic pastel theme. It preserves the reference's warm paper background, apricot / mist-blue / butter-yellow palette, Songti + Georgia typography, tabbed top band, paperclip, asymmetric editorial layouts, varied starbursts, staggered paper notes, and restrained information density.
+Mode1 is based on a specific visual reference set, not a generic pastel theme. It preserves the fixed warm-paper background template, page-level solid-color fields, apricot / mist-blue / butter-yellow palette, Songti + Georgia typography, one rectangular header band with two trapezoidal negative-space cutouts along its lower edge, paperclip, asymmetric editorial layouts, varied starbursts, staggered paper notes, and restrained information density.
 
 ## Repository structure
 
@@ -16,6 +16,7 @@ ppt-design-studio/
 │   └── openai.yaml
 ├── assets/
 │   ├── mode1-palette.svg
+│   ├── mode1-header-geometry.svg
 │   ├── mode1-palette.jpg
 │   └── reference-slides/
 │       ├── 01-cover-and-agenda.jpg
@@ -69,15 +70,17 @@ Inspect the original Mode1 reference images and preserve their typography, palet
 
 ## Mode1 visual contract
 
-1. Background, palette, and font combination are locked to the reference set.
-2. Chinese uses 宋体; Latin text and numerals use Georgia.
-3. Left-side core statements are larger and placed around the visual middle; right-side explanations are smaller.
-4. Divider lines are thin, light, and low-contrast.
-5. Three-row comparisons and paper cards have subtle offsets and natural irregularity.
-6. Starbursts vary in size, shape, angle, and placement.
-7. Screenshots are integrated into square-corner paper frames and note labels.
-8. No decorative footer line is added by default.
-9. All container shapes use square corners unless the user explicitly opts out.
+1. The original warm-paper background template is fixed unless the user explicitly asks to change it; each page uses a coherent solid-color field from the reference palette.
+2. The header is one continuous rectangle. Two isosceles-trapezoid negative-space cutouts are removed from its lower edge to reveal the underlying page background; they are not separate overlaid blocks or protruding tabs.
+3. Chinese uses 宋体; Latin text and numerals use Georgia. Do not substitute fonts without permission.
+4. Left-side core statements are larger and placed around the visual middle; right-side explanations are smaller.
+5. Divider lines are thin, continuous, light, and low-contrast.
+6. Three-row comparisons and paper cards have subtle offsets, slight mixed-direction tilts, and natural irregularity.
+7. Starbursts are custom irregular shapes that vary in size, silhouette, angle, and placement.
+8. Large content notes and small emphasis notes are separate square-corner components with different proportions and purposes.
+9. Screenshots are integrated into square-corner paper frames and note labels.
+10. No decorative footer line is added by default.
+11. All container shapes use square corners unless the user explicitly opts out.
 
 ## Showcase note
 
@@ -100,4 +103,4 @@ No open-source license is currently included. All rights are reserved by default
 
 ## Binary asset status
 
-The reference-slide images, color palette, and SHEEN PowerPoint/PDF are committed in this repository. The eight-slide example includes an editable `.pptx` and a review-ready `.pdf`.
+The original reference-slide images, palette assets, and SHEEN showcase deliverables are committed in this repository. This documentation update changes only the written design specifications and SVG guidance; all existing SHEEN PPTX, PDF, and overview files are left untouched.

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520">
+  <rect width="1440" height="520" fill="#FCFBEA"/>
+  <path fill="#F7A26B" fill-rule="evenodd" d="
+    M72 70 H1368 V340 H72 Z
+    M220 340 L260 260 H420 L460 340 Z
+    M900 340 L940 260 H1100 L1140 340 Z"/>
+  <g fill="#493729" font-family="Georgia,serif">
+    <text x="112" y="154" font-size="25" font-style="italic">01 / 07</text>
+    <text x="1020" y="324" font-size="22" text-anchor="middle">SECTION LABEL</text>
+  </g>
+  <g fill="#6A584A" font-family="Georgia,serif" font-size="18">
+    <text x="72" y="408">ONE CONTINUOUS RECTANGLE</text>
+    <text x="72" y="440">TWO ISOSCELES-TRAPEZOID CUTOUTS IN THE LOWER EDGE</text>
+    <text x="72" y="472">THE CUTOUTS REVEAL THE UNDERLYING PAGE COLOR — THEY ARE NOT OVERLAID TABS</text>
+  </g>
+</svg>

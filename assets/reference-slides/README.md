@@ -11,4 +11,8 @@ Five 16:9 reference pages supplied for the original Mode1 visual analysis: 01, 0
 
 The images were supplied by the user for design analysis. Original source URL and redistribution-rights metadata were not provided.
 
+## Shared page-frame observation
+
+The reference header is a single rectangle. Two isosceles trapezoid-shaped areas are cut into its lower edge, revealing the underlying page background. They are negative-space cutouts, not separate tabs or blocks placed on top of the rectangle. See `../mode1-header-geometry.svg` for a geometry-only diagram; the actual colors must still be taken from the corresponding reference page.
+
 > **Asset status:** All five reference images and the contact sheet are included in this repository.
