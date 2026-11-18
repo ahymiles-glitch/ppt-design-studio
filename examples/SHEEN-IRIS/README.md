@@ -4,6 +4,8 @@
 **Format:** editable PowerPoint, 16:9, 8 slides  
 **Version:** final eight-slide Mode1 revision, 2026-11-14
 
+> **Design-spec status:** the current Mode1 specification has since been refined. The original reference pages and `../../references/mode1.md` are authoritative; this showcase deck and its PPTX/PDF/overview binaries are not modified by the documentation-only sync.
+
 ## Story structure
 
 1. Cover and project premise
