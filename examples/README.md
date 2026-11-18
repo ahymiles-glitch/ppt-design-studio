@@ -12,6 +12,8 @@ An eight-slide student concept deck illustrating Mode1 across a complete narrati
 
 The deck is a concept proposal, not an official 谷雨 collaboration or launched product. It clearly labels assumptions, development-stage interface images, and validation work still outstanding.
 
+> The original Mode1 reference pages and `references/mode1.md` are the visual source of truth. The existing SHEEN PPTX, PDF, and overview assets are retained as-is; this documentation update does not replace or edit them.
+
 ## Reference slides
 
 The five supplied Mode1 reference pages are in `assets/reference-slides/`. They are the canonical visual source for future Mode1 work; the SHEEN example must not override them.
